@@ -1,47 +1,62 @@
-# iTest Bangladesh PCB Design Contest 2026 – Round 2
+# Problem 1 – SparkFun OpenLog Artemis Data Logger
 
-PCB designs made in **EasyEDA** for Round 2 of the iTest Bangladesh PCB Design Contest 2026.
+Compact data-logging PCB based on the SparkFun OpenLog Artemis architecture. It records motion and sensor data to a microSD card and offers USB, serial and Qwiic/I²C connectivity.
 
-**Author:** M. Shoyab Sadik – IUBAT (B.Sc. in EEE)
+## Features
 
-## Projects
+- Artemis module (U8) with local decoupling
+- ICM-20948 9-DoF IMU (U13)
+- microSD socket (J6) with MOSFET power switch (Q2) and level shifting (Q1, Q3, Q7, Q9, Q10)
+- USB Type-C (J5) with CH340E USB-to-serial bridge (U10)
+- LiPo charger MCP73831 (U2), JST 2 mm battery connector (J2)
+- 3.3 V LDOs AP2112K (U3, U4), 1.8 V LDO (U14), 3.0 V supervisor (U1)
+- Qwiic connector (J11), Cortex SWD/JTAG header (J14), headers J1, J3, J4, J7
+- 32.768 kHz crystal (Y3), RTC battery ML414H (BT1), reset switch (S3)
+- Test points: GND, QWIIC_3.3V, SCL, SDA, TP1
 
-| # | Project | Type | Marks | Folder |
-|---|---------|------|-------|--------|
-| 1 | SparkFun OpenLog Artemis Data Logger | Precision analog / data acquisition | 110 | [Round2_P1_OpenLog_Artemis](Round2_P1_OpenLog_Artemis) |
-| 2 | Infineon REF-FRIDGE-C101T-6ED Motor/Inverter Controller | Motor control / power electronics | 70 | [Round2_P2_Infineon_Motor_Inverter](Round2_P2_Infineon_Motor_Inverter) |
-| 3 | STM32 Ethernet + CAN + RS-485 Industrial Gateway | High-speed digital | 120 | [Round2_P3_STM32_Gateway](Round2_P3_STM32_Gateway) |
+## Key component list
 
-## Repository layout
+| Ref | Part | Package |
+|-----|------|---------|
+| U8 | Artemis module | ARTEMIS_FP |
+| U13 | ICM-20948 | QFN-24 |
+| U10 | CH340E | MSOP-10 |
+| U2 | MCP73831 | SOT-23-5 |
+| U3, U4 | AP2112K-3.3 | SOT-23-5 |
+| U14 | 1.8 V LDO (SP6214 equivalent) | SOT-23-5 |
+| Q1, Q3, Q7, Q9, Q10 | 2N7002 | SOT-23 |
+| Q2 | AO3401A | SOT-23 |
+| J5 | HX TYPE-C 16P-CT | SMD |
+| J11 | SM04B-SRSS-TB | SMD |
+| J2 | S2B-PH-SM4-TB | SMD |
 
-Each project folder follows the same layout:
+## Layout notes
 
-```
-Round2_Px_<name>/
-├── README.md                    project overview, design notes, how to open
-├── ShoyabSadik_IUBAT.json       EasyEDA schematic + board files
-├── ShoyabSadik_IUBAT.pdf        all layers, one layer per page
-├── ShoyabSadik_IUBAT_report.docx  design report with 2D and 3D views
-└── images/                      schematic, top, bottom and 3D screenshots
-```
+- Artemis module and its decoupling capacitors are placed together.
+- IMU is kept away from USB and the charger/power section.
+- microSD socket and USB-C are at the board edge.
+- LiPo connector, charger and LDOs form one power section.
+- Qwiic connector on the perimeter with short SDA/SCL.
+- GND pour on both layers with stitching vias.
+- Silkscreen marks connector names, polarity and pin functions.
 
-## How to open the designs
+## Files
 
-1. Open [EasyEDA](https://easyeda.com) (Standard or Pro, matching the file version).
-2. `File` → `Open` → `EasyEDA Source…` and choose the `.json` file.
-3. Use `Design` → `Check DRC` to re-run the design rule check.
+| File | Description |
+|------|-------------|
+| `ShoyabSadik_IUBAT.json` | EasyEDA schematic and board |
+| `ShoyabSadik_IUBAT.pdf` | All layers, one per page |
+| `ShoyabSadik_IUBAT_report.docx` | Design report |
 
-## Tools
+## Status
 
-- EasyEDA (schematic, PCB layout, DRC, 3D preview)
-- Component footprints from the EasyEDA/LCSC library; custom footprints built from datasheets where needed
+- [ ] Placement complete
+- [ ] Routing complete
+- [ ] DRC: 0 errors
+- [ ] Layer PDF exported
 
-## Contest rules followed
+## Preview
 
-- Designed only with EasyEDA, from the schematic and component list in the question.
-- No pre-made full designs were used; reference libraries only.
-- Submitted as separate files (no ZIP): schematic, board, layer PDF, report.
-
-## License
-
-Shared for learning and portfolio use. Reference designs and library parts belong to their original owners (SparkFun, Infineon, STMicroelectronics, Texas Instruments, etc.).
+| Schematic | Top | Bottom | 3D |
+|-----------|-----|--------|----|
+| ![](images/schematic.png) | ![](images/top.png) | ![](images/bottom.png) | ![](images/3d.png) |
