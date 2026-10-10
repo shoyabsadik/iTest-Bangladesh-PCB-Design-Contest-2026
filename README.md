@@ -18,7 +18,7 @@ My PCB designs for the **iTest Bangladesh PCB Design Contest 2026**, made in **E
 | 2 | P2 | Infineon REF-FRIDGE-C101T-6ED Motor/Inverter (70 marks) | Round2/Round2_P2_Infineon_Motor_Inverter |
 | 2 | P3 | STM32 Ethernet + CAN + RS-485 Gateway (120 marks) | Round2/Round2_P3_STM32_Gateway |
 
-See [Round1](Round1/README.md) and [Round2](Round2/README.md) for the round overviews.
+See [Round1](Round_1/README.md) and [Round2](Round_2/README.md) for the round overviews.
 
 ## What each design folder holds
 
