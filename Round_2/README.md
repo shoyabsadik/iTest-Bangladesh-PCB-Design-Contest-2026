@@ -23,9 +23,9 @@
 
 ### 📁 Project Directories
 
-- 📊 [**Project 1 — OpenLog Artemis Data Logger**](Round2_P1_OpenLog_Artemis)
-- ⚡ [**Project 2 — Infineon Motor/Inverter Controller**](Round2_P2_Infineon_Motor_Inverter)
-- 🌐 [**Project 3 — STM32 Industrial Gateway**](Round2_P3_STM32_Gateway)
+- 📊 [**Project 1 — OpenLog Artemis Data Logger**](Round_2/Problem_1)
+- ⚡ [**Project 2 — Infineon Motor/Inverter Controller**](Round_2/Problem_2)
+- 🌐 [**Project 3 — STM32 Industrial Gateway**](Round_2/Problem_3)
 
 ## 🗂️ Repository Structure
 
