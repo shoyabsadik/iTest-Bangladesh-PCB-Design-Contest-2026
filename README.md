@@ -10,7 +10,7 @@ My PCB designs for the **iTest Bangladesh PCB Design Contest 2026**, made in **E
 
 | Round | Problem | Design | Folder |
 |-------|---------|--------|--------|
-| 1 | P1 | SparkFun Artemis Development Kit | [Round1/P1_Artemis_Dev_Kit](Round1/P1_Artemis_Dev_Kit) |
+| 1 | P1 | SparkFun Artemis Development Kit | [Round1/P1_Artemis_Dev_Kit]|
 | 1 | P2 | Circuit Playground Express inspired controller | [Round1/P2_Circuit_Playground_Express](Round1/P2_Circuit_Playground_Express) |
 | 1 | P3 | ExpressLRS ESP32 RF development PCB | [Round1/P3_ExpressLRS_ESP32_RF](Round1/P3_ExpressLRS_ESP32_RF) |
 | 1 | Bonus | 555 timer + logic gate circuit | [Round1/Bonus_555_Logic](Round1/Bonus_555_Logic) |
