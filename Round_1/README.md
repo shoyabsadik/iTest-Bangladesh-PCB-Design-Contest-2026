@@ -17,7 +17,7 @@ Round 1 of the **iTest Bangladesh PCB Design Contest 2026** consisted of three m
 | P1 | SparkFun Artemis Development Kit | PCB design based on the SparkFun Artemis development platform. | [📁 P1_Artemis_Dev_Kit](P1_Artemis_Dev_Kit/) |
 | P2 | Circuit Playground Express Inspired Controller | PCB design inspired by the Circuit Playground Express, featuring a microcontroller-based control platform. | [📁 P2_Circuit_Playground_Express](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_1/Problem_2) |
 | P3 | ExpressLRS ESP32 RF Development PCB | PCB design for an ESP32-based RF development platform inspired by ExpressLRS hardware. | [📁 P3_ExpressLRS_ESP32_RF]([P3_ExpressLRS_ESP32_RF/](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_1/Problem_3)) |
-| 🎁 Bonus | 555 Timer + Logic Gate Circuit | Circuit design combining a 555 timer IC with logic gates for basic timing and digital logic functions. | [📁 Bonus_555_Logic](Bonus_555_Logic/) |
+| 🎁 Bonus | 555 Timer + Logic Gate Circuit | Circuit design combining a 555 timer IC with logic gates for basic timing and digital logic functions. | [📁 Bonus_555_Logic]([Bonus_555_Logic/](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_1/Bonus_Round)) |
 
 ## 📂 Repository Structure
 
