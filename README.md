@@ -24,13 +24,13 @@
 
 | Round | Problem | PCB Design | Project Directory |
 |:---:|:---:|---|---|
-| 1️⃣ | P1 | SparkFun Artemis Development Kit | `Round1/P1_Artemis_Dev_Kit` |
-| 1️⃣ | P2 | Circuit Playground Express Inspired Controller | `Round1/P2_Circuit_Playground_Express` |
-| 1️⃣ | P3 | ExpressLRS ESP32 RF Development PCB | `Round1/P3_ExpressLRS_ESP32_RF` |
-| ⭐ | Bonus | 555 Timer + Logic Gate Circuit | `Round1/Bonus_555_Logic` |
-| 2️⃣ | P1 | SparkFun OpenLog Artemis Data Logger — 110 Marks | `Round2/Round2_P1_OpenLog_Artemis` |
-| 2️⃣ | P2 | Infineon REF-FRIDGE-C101T-6ED Motor/Inverter — 70 Marks | `Round2/Round2_P2_Infineon_Motor_Inverter` |
-| 2️⃣ | P3 | STM32 Ethernet + CAN + RS-485 Gateway — 120 Marks | `Round2/Round2_P3_STM32_Gateway` |
+| 1️⃣ | P1 | SparkFun Artemis Development Kit | [Artemis Dev Kit (Null)] |
+| 1️⃣ | P2 | Circuit Playground Express Inspired Controller | [Click Here](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_1/Problem_2) |
+| 1️⃣ | P3 | ExpressLRS ESP32 RF Development PCB | [Click Here](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_1/Problem_3) |
+| ⭐ | Bonus | 555 Timer + Logic Gate Circuit | [Click Here](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_1/Bonus_Round) |
+| 2️⃣ | P1 | SparkFun OpenLog Artemis Data Logger — 110 Marks | [Click Here](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_2/Problem_1) |
+| 2️⃣ | P2 | Infineon REF-FRIDGE-C101T-6ED Motor/Inverter — 70 Marks | [Click Here](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_2/Problem_2) |
+| 2️⃣ | P3 | STM32 Ethernet + CAN + RS-485 Gateway — 120 Marks | [Click Here](https://github.com/shoyabsadik/iTest-Bangladesh-PCB-Design-Contest-2026/tree/main/Round_2/Problem_1) |
 
 📖 Explore the `Round1` and `Round2` directories for individual problem descriptions, design details, and project files.
 
